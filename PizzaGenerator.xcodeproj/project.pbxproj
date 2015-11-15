@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		43F368681BF7BF8900E3852B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F368671BF7BF8900E3852B /* AppDelegate.swift */; };
-		43F3686A1BF7BF8900E3852B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F368691BF7BF8900E3852B /* ViewController.swift */; };
+		43F3686A1BF7BF8900E3852B /* SeleccionaTamanhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F368691BF7BF8900E3852B /* SeleccionaTamanhoViewController.swift */; };
 		43F3686D1BF7BF8900E3852B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F3686B1BF7BF8900E3852B /* Main.storyboard */; };
 		43F3686F1BF7BF8900E3852B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F3686E1BF7BF8900E3852B /* Images.xcassets */; };
 		43F368721BF7BF8900E3852B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F368701BF7BF8900E3852B /* LaunchScreen.xib */; };
 		43F3687E1BF7BF8900E3852B /* PizzaGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F3687D1BF7BF8900E3852B /* PizzaGeneratorTests.swift */; };
+		43F368881BF7C24C00E3852B /* SeleccionaMasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F368871BF7C24C00E3852B /* SeleccionaMasaViewController.swift */; };
+		43F3688A1BF7C4F300E3852B /* SeleccionaQuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F368891BF7C4F300E3852B /* SeleccionaQuesoViewController.swift */; };
+		43F3688C1BF7C50700E3852B /* SeleccionaIngredientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F3688B1BF7C50700E3852B /* SeleccionaIngredientesViewController.swift */; };
+		43F3688E1BF7C51B00E3852B /* ConfirmarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F3688D1BF7C51B00E3852B /* ConfirmarViewController.swift */; };
+		43F368901BF7C8EA00E3852B /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F3688F1BF7C8EA00E3852B /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		43F368621BF7BF8900E3852B /* PizzaGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F368661BF7BF8900E3852B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43F368671BF7BF8900E3852B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43F368691BF7BF8900E3852B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43F368691BF7BF8900E3852B /* SeleccionaTamanhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionaTamanhoViewController.swift; sourceTree = "<group>"; };
 		43F3686C1BF7BF8900E3852B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43F3686E1BF7BF8900E3852B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		43F368711BF7BF8900E3852B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		43F368771BF7BF8900E3852B /* PizzaGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F3687C1BF7BF8900E3852B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43F3687D1BF7BF8900E3852B /* PizzaGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaGeneratorTests.swift; sourceTree = "<group>"; };
+		43F368871BF7C24C00E3852B /* SeleccionaMasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionaMasaViewController.swift; sourceTree = "<group>"; };
+		43F368891BF7C4F300E3852B /* SeleccionaQuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionaQuesoViewController.swift; sourceTree = "<group>"; };
+		43F3688B1BF7C50700E3852B /* SeleccionaIngredientesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionaIngredientesViewController.swift; sourceTree = "<group>"; };
+		43F3688D1BF7C51B00E3852B /* ConfirmarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmarViewController.swift; sourceTree = "<group>"; };
+		43F3688F1BF7C8EA00E3852B /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +87,13 @@
 		43F368641BF7BF8900E3852B /* PizzaGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				43F368671BF7BF8900E3852B /* AppDelegate.swift */,
-				43F368691BF7BF8900E3852B /* ViewController.swift */,
+				43F3688D1BF7C51B00E3852B /* ConfirmarViewController.swift */,
+				43F3688B1BF7C50700E3852B /* SeleccionaIngredientesViewController.swift */,
+				43F368891BF7C4F300E3852B /* SeleccionaQuesoViewController.swift */,
+				43F368871BF7C24C00E3852B /* SeleccionaMasaViewController.swift */,
+				43F368691BF7BF8900E3852B /* SeleccionaTamanhoViewController.swift */,
+				43F3688F1BF7C8EA00E3852B /* Pizza.swift */,
 				43F3686B1BF7BF8900E3852B /* Main.storyboard */,
-				43F3686E1BF7BF8900E3852B /* Images.xcassets */,
-				43F368701BF7BF8900E3852B /* LaunchScreen.xib */,
 				43F368651BF7BF8900E3852B /* Supporting Files */,
 			);
 			path = PizzaGenerator;
@@ -90,6 +102,9 @@
 		43F368651BF7BF8900E3852B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43F3686E1BF7BF8900E3852B /* Images.xcassets */,
+				43F368701BF7BF8900E3852B /* LaunchScreen.xib */,
+				43F368671BF7BF8900E3852B /* AppDelegate.swift */,
 				43F368661BF7BF8900E3852B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,11 +171,13 @@
 		43F3685A1BF7BF8900E3852B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = julio;
 				TargetAttributes = {
 					43F368611BF7BF8900E3852B = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = WWM2ERPJ4F;
 					};
 					43F368761BF7BF8900E3852B = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -212,8 +229,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43F3686A1BF7BF8900E3852B /* ViewController.swift in Sources */,
+				43F368901BF7C8EA00E3852B /* Pizza.swift in Sources */,
+				43F3688A1BF7C4F300E3852B /* SeleccionaQuesoViewController.swift in Sources */,
+				43F3686A1BF7BF8900E3852B /* SeleccionaTamanhoViewController.swift in Sources */,
+				43F3688E1BF7C51B00E3852B /* ConfirmarViewController.swift in Sources */,
 				43F368681BF7BF8900E3852B /* AppDelegate.swift in Sources */,
+				43F368881BF7C24C00E3852B /* SeleccionaMasaViewController.swift in Sources */,
+				43F3688C1BF7C50700E3852B /* SeleccionaIngredientesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +364,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PizzaGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +377,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PizzaGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -411,6 +439,7 @@
 				43F368831BF7BF8900E3852B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43F368841BF7BF8900E3852B /* Build configuration list for PBXNativeTarget "PizzaGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +448,7 @@
 				43F368861BF7BF8900E3852B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
